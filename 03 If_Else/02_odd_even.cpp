@@ -1,0 +1,18 @@
+// WAP to find if the entered number is odd or even
+
+#include<iostream>
+using namespace std;
+
+
+int main()
+{
+    int input;
+    cin >> input;
+    if(input%2==0){
+        cout << "Even";
+    }
+    else{
+        cout << "odd";
+    }
+    return 0;
+}
